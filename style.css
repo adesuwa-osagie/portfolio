@@ -108,8 +108,16 @@ li a{
     z-index: 2;
 }
 
-.firstWord {
-    color: var(--lightblue-text);
+.highlight-word {
+    color: rgb(146, 206, 226);
+}
+
+.italic-word {
+    font-style: italic;
+}
+
+.text-underline:hover {
+    text-decoration: underline;
 }
 
 .resume-cta {
@@ -149,7 +157,7 @@ li a{
     flex-flow: wrap;
 }
 
-.office-project {
+.this-portfolio {
    width: 400px;
    height: 400px;
    background: #fff;
@@ -284,7 +292,7 @@ li a{
         background-color: rgba(0, 0, 0, 0.625);
     }
 
-    .office-project {
+    .portfolio-project {
         width: 250px;
         height: 400px;
         background: #fff;
