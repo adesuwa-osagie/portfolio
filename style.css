@@ -7,6 +7,7 @@
 }
 
 :root {
+    --lightblue-text: rgb(146, 206, 226);
     --navyblue-text:rgb(53, 34, 221);
     --silver-text: rgb(243, 233, 233);
     --dark-silver: rgb(65, 63, 63);
@@ -94,6 +95,10 @@ li a{
     z-index: 1;
 }
 
+.nav-bar .links li a:hover {
+    color: var(--lightblue-text);
+}
+
 .hero-text {
     display: flex;
     justify-content: center;
@@ -109,11 +114,7 @@ li a{
 }
 
 .highlight-word {
-    color: rgb(146, 206, 226);
-}
-
-.italic-word {
-    font-style: italic;
+    color: var(--lightblue-text);
 }
 
 .text-underline:hover {
